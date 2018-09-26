@@ -1,4 +1,4 @@
-(./client/src/img/QuickPass.png) ![alt text]
+(client/src/img/QuickPass.png) ![alt text]
 
 # Psuedo-random Cryptographic Password Generator
 
