@@ -1,4 +1,4 @@
-(https://github.com/hleebarton97/quick-pass/blob/master/client/src/img/QuickPass.png "Qu1ck P@ss Logo")
+![alt text](https://github.com/hleebarton97/quick-pass/blob/master/client/src/img/QuickPass.png "Qu1ck P@ss Logo")
 
 # Psuedo-random Cryptographic Password Generator
 
