@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+h1, button, p { font-family: 'Source Code Pro', monospace; }
+
+a:link { color: #00D55E; }
+a:visited { color: #00701D; }
+a:active { color: #00701D; }
+a:hover { color: #00D55E; cursor: pointer; }
+
+.App { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+    .App-Logo { /**position: fixed; left: 0; top: 0;**/ margin: 20px 0 0 20px; width: 250px; }
+    .App-Link { position: fixed; bottom: 0; margin-bottom: 20px; }
+
+    #hex-string-label { margin-top: 50px; }
+
+.About {
+    display: none;
+    position: fixed;
+    height: 540px; margin-top: 135px;
+    width: 600px;
+    background-color: white;
+    border: 2px solid #00D55E;
+    border-radius: 4px;
+    text-align: center;
+}
+    .About p { font-size: 18px; width: 85%; margin: auto; margin-top: 40px; }
+
+input { 
+    margin: 0 0 25px 0; padding: 6px;
+    min-width: 500px;
+    max-width: 99%;
+    font-size: 22px; 
+    border: 0; border-top: 1px solid black; border-bottom: 1px solid black; 
+    outline: 0; 
+    background: transparent;  
+
+    transition: width 0.15s;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    width: 150px; height: 40px;
+    font-size: 16px; font-weight: bold;
+    background-color: #00D55E;
+    border: solid 1px; border-radius: 3px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #00D55E;
+    color: white; 
+    font-weight: bold;
+}
+button:focus {
+    background-color: #00D55E;
+    color: white; 
+    font-weight: bold;
+}
+button:active {
+    background-color: #00701D;
+}
